@@ -1,0 +1,31 @@
+{
+  "name": "template-from-schema",
+  "version": "1.0.0",
+  "description": "Generate a json template from a given json schema",
+  "main": "index.js",
+  "keywords": [
+    "json",
+    "schema",
+    "default",
+    "template"
+  ],
+  "author": {
+    "name": "Ahmad El Harake",
+    "email": "aeharake@gmail.com",
+    "url": "https://github.com/aeharake"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aeharake/template-from-schema.git"
+  },
+  "files": [
+    "README.md"
+  ],
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}

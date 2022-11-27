@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "required": ["person"],
+  "properties": {
+    "person": {
+      "type": "object",
+      "properties": {
+        "firstName": {
+          "type": "string",
+          "default": "Ahmad"
+        },
+        "hobbies": {
+          "type": "array",
+          "default": ["sports"]
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "age": {
+          "type": "integer",
+          "default": 20
+        },
+        "isNice": {
+          "type": "boolean",
+          "default": true
+        },
+        "hasBeard": {
+          "type": "boolean"
+        },
+        "country": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "capital": {
+              "type": "string"
+            }
+          },
+          "required": ["name"]
+        }
+      },
+      "required": [
+        "firstName",
+        "hasBeard",
+        "hobbies",
+        "isNice",
+        "age",
+        "country"
+      ]
+    }
+  }
+}
